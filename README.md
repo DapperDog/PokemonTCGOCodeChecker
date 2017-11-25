@@ -1,7 +1,9 @@
 # PokemonTCGOCodeChecker
 This is just a simple python script, that requires a few manual steps to check a list of pokemon tcgo codes
 
-# Steps
+All it does it makes requests to the 'verify_code' api directly, however you need to login and pull a session id for security reasons, the code itself is <50 lines and does nothing with the codes besides tell you if they are valid, and what they redeem.
+
+# Steps (Using chrome)
 1) go to https://www.pokemon.com/ and login
 2) go to https://www.pokemon.com/us/pokemon-trainer-club/enter-codes and click the 'i'm not a robot' button
 3) Press f12
