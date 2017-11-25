@@ -1,3 +1,8 @@
+# DISCLAIMER
+I don't know if doing this will risk your account, I haven't run into any issues but I had always used alt accounts.
+
+So ya, use at your own risk.
+
 # PokemonTCGOCodeChecker
 This is just a simple python script, that requires a few manual steps to check a list of pokemon tcgo codes
 
