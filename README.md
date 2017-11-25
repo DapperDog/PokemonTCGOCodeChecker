@@ -32,7 +32,9 @@ As a note it seems they limit requests to around 500 per 24h period, it wasn't r
 # Common Errors
 
 {"detail":"Authentication credentials were not provided."}
+
 This means that you didnt put a valid session_key in the settings.ini
 
 {"detail":"Google validation not complete"}
+
 This means that you need to click the 'im not a robot' and submit any text in the verify code field to activate your session_id
