@@ -5,7 +5,7 @@ All it does it makes requests to the 'verify_code' api directly, however you nee
 
 As a note it seems they limit requests to around 500 per 24h period, it wasn't really an issue once you get through the bulk of your codes.
 
-Youtube Video showing how to run it:
+Youtube Video showing how to run it (unlisted video for now):
 https://youtu.be/1xWUNClPAAI
 
 # Requirements
