@@ -23,6 +23,7 @@ https://youtu.be/1xWUNClPAAI
 3) You might need a few python libraries
 
 sudo pip install requests
+
 sudo pip install configparser
 
 Depending on your OS/instead you might need to use easy_install instead of pip.
