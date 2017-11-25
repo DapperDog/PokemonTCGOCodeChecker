@@ -53,3 +53,15 @@ This means that you didnt put a valid session_key in the settings.ini
 {"detail":"Google validation not complete"}
 
 This means that you need to click the 'im not a robot' and submit any text in the verify code field to activate your session_id
+
+# Making your codes pretty
+
+Make a copy of the google sheet here: https://docs.google.com/spreadsheets/d/1V6Nuo1Qr88NJuSr0yXdmxmLDjlJxw4DmUhBakxvz-8c/edit?usp=sharing
+
+1) Copy the contents of the text file the script generated
+2) paste into topleftmost empty field on the Codes tab
+3) select the paste icon in the top right
+4) select split text into columns (by default its commas)
+5) there you go, the overview page will now list counts of each code type, as well as list any duplicate codes.
+
+Just make sure you make a copy and don't share the sheet with anyone :P you wouldnt want your codes to be public :) 
