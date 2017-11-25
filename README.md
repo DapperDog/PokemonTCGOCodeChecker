@@ -20,8 +20,6 @@ https://youtu.be/1xWUNClPAAI
 2) Python 2.7 or greater, you can check if you have python installed by opening a console and typing 'python --version' if not installed you can download it at https://www.python.org/downloads/
 3) You might need a few python libraries
 requests
-time
-json
 configparser
 
 you can install them with pip, easy_install, etc it all depends on your OS.
