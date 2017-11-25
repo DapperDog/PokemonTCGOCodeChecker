@@ -5,6 +5,9 @@ All it does it makes requests to the 'verify_code' api directly, however you nee
 
 As a note it seems they limit requests to around 500 per 24h period, it wasn't really an issue once you get through the bulk of your codes.
 
+Youtube Video showing how to run it:
+https://youtu.be/1xWUNClPAAI
+
 # Requirements
 1) A Pokemon Trainer Club account ( I don't think you can get banned for doing this, but I run it on alts to be safe) 
 2) Python 2.7 or greater, you can check if you have python installed by opening a console and typing 'python --version' if not installed you can download it at https://www.python.org/downloads/
