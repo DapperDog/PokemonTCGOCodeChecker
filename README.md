@@ -5,6 +5,8 @@ So ya, use at your own risk.
 
 I'm also assuming you at least know a little bit about python / running python scripts
 
+And hey, if you get some good use out of this, you can show your appreciation by sending some digital / physical cards my way :P 
+
 # PokemonTCGOCodeChecker
 This is just a simple python script, that requires a few manual steps to check a list of pokemon tcgo codes
 
