@@ -3,6 +3,8 @@ I don't know if doing this will risk your account, I haven't run into any issues
 
 So ya, use at your own risk.
 
+I'm also assuming you at least know a little bit about python / running python scripts
+
 # PokemonTCGOCodeChecker
 This is just a simple python script, that requires a few manual steps to check a list of pokemon tcgo codes
 
@@ -16,6 +18,13 @@ https://youtu.be/1xWUNClPAAI
 # Requirements
 1) A Pokemon Trainer Club account ( I don't think you can get banned for doing this, but I run it on alts to be safe) 
 2) Python 2.7 or greater, you can check if you have python installed by opening a console and typing 'python --version' if not installed you can download it at https://www.python.org/downloads/
+3) You might need a few python libraries
+requests
+time
+json
+configparser
+
+you can install them with pip, easy_install, etc it all depends on your OS.
 
 # Installing
 1) Go to the project root https://github.com/DapperDog/PokemonTCGOCodeChecker (you are probably already there)
