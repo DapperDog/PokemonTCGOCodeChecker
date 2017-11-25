@@ -28,3 +28,11 @@ As a note it seems they limit requests to around 500 per 24h period, it wasn't r
 10) copy your list of codes into codes.txt, one code per line, I would heavily suggest using a phone app like Pokecollector to scan all your codes, then you can just copy the code list from an email into the text file.
 11) Run pokemonCodeChecker.py {python -i pokemonCodeChecker.py}
 12) You should now see it populate a timestamped file with the codes, for example CheckedCodes-20171009-232908.txt
+
+# Common Errors
+
+{"detail":"Authentication credentials were not provided."}
+This means that you didnt put a valid session_key in the settings.ini
+
+{"detail":"Google validation not complete"}
+This means that you need to click the 'im not a robot' and submit any text in the verify code field to activate your session_id
