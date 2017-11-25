@@ -21,10 +21,11 @@ https://youtu.be/1xWUNClPAAI
 1) A Pokemon Trainer Club account ( I don't think you can get banned for doing this, but I run it on alts to be safe) 
 2) Python 2.7 or greater, you can check if you have python installed by opening a console and typing 'python --version' if not installed you can download it at https://www.python.org/downloads/
 3) You might need a few python libraries
-requests
-configparser
 
-you can install them with pip, easy_install, etc it all depends on your OS.
+sudo pip install requests
+sudo pip install configparser
+
+Depending on your OS/instead you might need to use easy_install instead of pip.
 
 # Installing
 1) Go to the project root https://github.com/DapperDog/PokemonTCGOCodeChecker (you are probably already there)
