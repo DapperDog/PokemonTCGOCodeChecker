@@ -3,15 +3,17 @@ This is just a simple python script, that requires a few manual steps to check a
 
 All it does it makes requests to the 'verify_code' api directly, however you need to login and pull a session id for security reasons, the code itself is <50 lines and does nothing with the codes besides tell you if they are valid, and what they redeem.
 
+As a note it seems they limit requests to around 500 per 24h period, it wasn't really an issue once you get through the bulk of your codes.
+
 # Requirements
 1) A Pokemon Trainer Club account ( I don't think you can get banned for doing this, but I run it on alts to be safe) 
-2) Python 2.7 or greater
-
-# Notes
-It appears you can only make ~500 requests per account per 24 hours, so just keep that in mind, I have many trainer club accounts I use, but I am rarely checking that many codes after I did the first big batch.
+2) Python 2.7 or greater, you can check if you have python installed by opening a console and typing 'python --version' if not installed you can download it at https://www.python.org/downloads/
 
 # Installing
-1) Go to the project root https://github.com/DapperDog/PokemonTCGOCodeChecker (you are probably already there) 
+1) Go to the project root https://github.com/DapperDog/PokemonTCGOCodeChecker (you are probably already there)
+2) Select the Clone or Download button
+3) Download Zip
+4) Unzip in location of your choise
 
 # Steps (Using chrome)
 1) go to https://www.pokemon.com/ and login
