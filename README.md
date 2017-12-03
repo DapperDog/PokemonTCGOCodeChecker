@@ -20,11 +20,6 @@ https://youtu.be/1xWUNClPAAI
 # Requirements
 1) A Pokemon Trainer Club account ( I don't think you can get banned for doing this, but I run it on alts to be safe) 
 2) Python 2.7 or greater, you can check if you have python installed by opening a console and typing 'python --version' if not installed you can download it at https://www.python.org/downloads/
-3) You might need a few python libraries
-
-sudo pip install requests
-
-sudo pip install configparser
 
 Depending on your OS/instead you might need to use easy_install instead of pip.
 
@@ -33,6 +28,7 @@ Depending on your OS/instead you might need to use easy_install instead of pip.
 2) Select the Clone or Download button
 3) Download Zip
 4) Unzip in location of your choise
+5) from commandline run 'python setup.py install' this just adds the configparser and requests python modules
 
 # Steps (Using chrome)
 1) go to https://www.pokemon.com/ and login
