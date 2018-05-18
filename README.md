@@ -30,7 +30,7 @@ Depending on your OS/instead you might need to use easy_install instead of pip.
 4) Unzip in location of your choise
 5) from commandline run 'python setup.py install' this just adds the configparser and requests python modules
 
-# Steps (Using chrome)
+# Steps FOR VALIDATOR (Using chrome)
 1) go to https://www.pokemon.com/ and login
 2) go to https://www.pokemon.com/us/pokemon-trainer-club/enter-codes and click the 'i'm not a robot' button
 3) submit any text in the 'enter code' field, this just finishes the verification, and flags your session id as not being a robot
@@ -43,6 +43,24 @@ Depending on your OS/instead you might need to use easy_install instead of pip.
 10) copy your list of codes into codes.txt, one code per line, I would heavily suggest using a phone app like Pokecollector to scan all your codes, then you can just copy the code list from an email into the text file.
 11) Run pokemonCodeChecker.py {python -i pokemonCodeChecker.py}
 12) You should now see it populate a timestamped file with the codes, for example CheckedCodes-20171009-232908.txt
+
+# Steps FOR REDEEMER (Using chrome)
+1) go to https://www.pokemon.com/ and login
+2) go to https://www.pokemon.com/us/pokemon-trainer-club/enter-codes and click the 'i'm not a robot' button
+3) submit any text in the 'enter code' field, this just finishes the verification, and flags your session id as not being a robot
+4) Press f12
+5) Select the Application tab
+6) Select the Cookies tab on the left hand side under 'Storage'
+7) Select https://www.pokemon.com
+8) find the cookie called 'main_session_id'
+9) copy the value of 'main_session_id' into the session_id field inside settings.ini
+10) While still in the developer tools, select 'Elements' to view the page source
+11) CTRL+F and search for 'csrfmiddlewaretoken', it should look like 
+"<input type="hidden" name="csrfmiddlewaretoken" value="QlPfYvo5Ys5zgMX91azidazUG8oZDBff">"
+12) copy the value of csrfmiddlewaretoken into the csrf_token field inside settings.ini
+13) copy your list of codes you want to redeem into redeemCodes.txt, one code per line, I would heavily suggest using a phone app like Pokecollector to scan all your codes, then you can just copy the code list from an email into the text file.
+11) Run pokemonCodeRedeemer.py {python -i pokemonCodeRedeemer.py}
+12) You should now see an output in the console of your redeemed codes, this currently doesn't output to a file.
 
 # Common Errors
 
