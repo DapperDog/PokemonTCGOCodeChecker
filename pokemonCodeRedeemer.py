@@ -46,7 +46,7 @@ if __name__ == '__main__':
 				response = requests.post('https://www.pokemon.com/us/pokemon-trainer-club/enter-codes', headers=headers, cookies=cookies, data=payload)
 				for item in response.text.split("\n"):
 					if strippedLine in item:
-						print item.strip()
+						print item.encode('utf-8').strip()
 		sc.close
     except:
         import sys
