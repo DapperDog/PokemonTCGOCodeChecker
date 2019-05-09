@@ -74,7 +74,7 @@ This means that you need to click the 'im not a robot' and submit any text in th
 
 # Making your codes pretty
 
-Make a copy of the google sheet here: https://docs.google.com/spreadsheets/d/1V6Nuo1Qr88NJuSr0yXdmxmLDjlJxw4DmUhBakxvz-8c/edit?usp=sharing
+Make a copy of the google sheet here: https://docs.google.com/spreadsheets/d/1q3N_XSQPzzZkFYajR335qmYko9wJjO1zPHTYs3cYQmE/edit?usp=sharing
 
 1) Copy the contents of the text file the script generated
 2) paste into topleftmost empty field on the Codes tab
