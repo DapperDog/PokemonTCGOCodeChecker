@@ -1,3 +1,10 @@
+# NOTICE --- THIS NO LONGER WORKS FOR PTCGO LIVE
+**IF YOUR ACCOUNT HAS BEEN MIGRATED TO LIVE, THIS VERSION OF THE CODE CHECKER WILL NO LONGER WORK**
+
+**Due to the amount of messages / stress i've had over the last 6 years from individuals / businesses using the open source checker, I do not plan on providing public access to the new version that works for PTCGO LIVE, it is by invite only**
+
+**Invites have already been sent out to those of you who have been active / supportive of my pokemon projects, or helped me in expanding my master sets** 
+
 # DISCLAIMER
 I don't know if doing this will risk your account, I haven't run into any issues but I had always used alt accounts.
 
